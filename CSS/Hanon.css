@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::-webkit-scrollbar{
+    width: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    
+}
+header{
+    height: 7vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.icons-con{
+    height: 8vw;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.con1{
+    height: inherit;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.con1 img{
+    height: 3vw;
+    width: 3vw;
+}
+.con1 p{
+    font-size: 1vw;
+}
+
+  /*  Piano design  */
+  .piano {
+    width: 100vw;
+    height: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  
+  li {
+    list-style: none;
+    position: relative;
+    float: left;
+
+  }
+  
+ 
+/* Add this to your existing CSS */
+.active {
+  border-top: 0.1vw solid #777;
+  border-left: 0.1vw solid #999;
+  border-bottom: 0.1vw solid #999;
+  box-shadow: 0.2vw 0 0.3vw rgba(0, 0, 0, 0.1) inset, -0.5vw 0.5vw 2vw rgba(0, 0, 0, 0.2) inset, 0 0 0.3vw rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #fff 0%, #e9e9e9 100%);
+}
+ul .white {
+    height:16vw;
+    width:4vw;
+    z-index:1;
+    border-left:1px solid #bbb;
+    border-bottom:1px solid #bbb;
+    border-radius:0 0 5px 5px;
+    box-shadow:-1px 0 0 rgba(255,255,255,0.8) inset,0 0 5px #ccc inset,0 0 3px rgba(0,0,0,0.2);
+    background:linear-gradient(to bottom,#eee 0%,#fff 100%);
+    margin-left: 0.1vw;
+  }
+  
+ul .white:active {
+    border-top:1px solid #777;
+    border-left:1px solid #999;
+    border-bottom:1px solid #999;
+    box-shadow:2px 0 3px rgba(0,0,0,0.1) inset,-5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
+    background:linear-gradient(to bottom,#fff 0%,#e9e9e9 100%)
+  }
+
+
+  
+  .black {
+    height: 9vw;
+    width: 2.7vw;
+    margin: 0 -0.9vw 0 -2.2vw;
+    z-index: 2;
+    border: 0.1vw solid #000;
+    border-radius: 0 0 0.3vw 0.3vw;
+    box-shadow: -0.1vw -0.1vw 0.2vw rgba(255, 255, 255, 0.2) inset, 0 -0.5vw 0.2vw 0.3vw rgba(0, 0, 0, 0.6) inset, 0 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #222 0%, #555 100%);
+    position: relative;
+    left: 0.7vw;
+  }
+  
+  .black:active {
+    box-shadow: -0.1vw -0.1vw 0.2vw rgba(255, 255, 255, 0.2) inset, 0 -0.2vw 0.2vw 0.3vw rgba(0, 0, 0, 0.6) inset, 0 0.1vw 0.2vw rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #444 0%, #222 100%);
+  }
+  
+  .a, .g, .f, .d, .c {
+    margin: 0 0 0 -0.7vw;
+  }
+  
+  ul li:first-child {
+    border-radius: 0.5vw 0 0.5vw 0.5vw;
+  }
+  
+  ul li:last-child {
+    border-radius: 0 0.5vw 0.5vw 0.5vw;
+  }
+  
+
+.para {
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin-top: 13.5vw;
+    margin-left: 1vw;
+    z-index: 5;
+}
+aside{
+    height: 26.2vw;
+    width: 100vw;
+    background-color: rgb(255, 0, 85);
+    display: flex;
+    justify-content: center;
+
+}
+.divs{
+    border: 1px solid yellow;
+    height: inherit;
+    width:4.1vw;
+}
